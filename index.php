@@ -87,8 +87,8 @@ $result = $conn->query($sql);
     </style>
 </head>
 <body>
-
-    <div class="container py-5">
+    <?php include 'navbar.php'; ?>
+    <div class="container py-4">
         <div class="card main-card">
             
             <!-- Header Giao Diện -->
